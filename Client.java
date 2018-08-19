@@ -15,6 +15,10 @@ public class Client {
        System.out.println ("<host><port><proxyport > " + "<objectname>");
       return;
     }
+    String host = args[0];
+    int port = Integer.valueOf(args[1]).intValue;
+    int proxyport =Integer.valueOf(args[2]).intValue; 
+    String name = args[3] ; 
     
     
     
